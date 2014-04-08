@@ -1,0 +1,119 @@
+﻿<html>
+<body>
+<p>
+如何在 HTML 页面创建文本域。用户可以在文本域中写入文本
+<br />
+<form>
+名：<input type="text" name="firstname">
+<br />
+姓：<input type="text" name="lastname">
+</form>
+</p>
+<p>
+如何创建 HTML 的密码域<br />
+<form>
+用户：<input type="text" name="user">
+<br />
+密码：<input type="password" name="password">
+</form>
+</p>
+<p>
+在 HTML 页中创建复选框,用户可以选中或取消选取复选框<br />
+<form>
+JAVA study:<input type="checkbox" name="java"><br />
+PHP&nbsp&nbspstudy:<input type="checkbox" name="php">
+</form>
+</p>
+<p>
+在 HTML 中创建单选按钮,当用户点击一个单选按钮时，该按钮会
+变为选中状态，其他所有按钮会变为非选中状态。<br />
+<form>
+男性:<input type="radio" checked="checked" name="sex" value="male">
+<br />
+女性:<input type="radio" name="sex" value="female">
+</form>
+</p>
+<p>
+在 HTML 页面中创建简单的下拉列表框。下拉列表框是一个可选列表<br />
+<form>
+<select name="language">
+<option value="php">php</option>
+<option value="java">java</option>
+<option value="c++">c++</option>
+<option value="python">python</option>
+</select>
+</form>
+</p>
+<p>
+创建一个简单的带有预选值的下拉列表<br />
+<form>
+<select name="cars">
+<option value="volvo">volvo</option>
+<option value="saab">saab</option>
+<option value="fiat" selected="selected">fiat</option>
+<option value="audi">audi</option>
+</select>
+</form>
+</p>
+<p>
+创建一个文本域（多行文本输入控件）<br />
+<textarea cols="30" row="5">
+在w3school，你可以找到你所需要的所有的网站建设教程。<br />
+从基础的HTML到XHTML，乃至进阶的XML、SQL、数据库、多媒体和WAP。
+</textarea>
+</p>
+<p>
+创建按钮<br />
+<form>
+<input type="button" value="点击">
+</p>
+<p>
+在数据周围绘制一个带标题的框<br />
+<form>
+	<fieldset>
+		<legend>健康信息</legend>
+		身高:<input type="text">
+		体重:<input type="text">
+	</fieldset>
+</form>
+</p>
+<p>
+如何向页面添加表单,此表单包含两个输入框和一个确认按钮。<br />
+<form action="/example/html/form_action.asp" method="get">
+	<p>First name:<input type="text" name="fname" /></p>
+	<p>Last name:<input type="text" name="lname" /></p>
+	<input type="submit" value="submit" />
+</form>
+</p>
+<p>
+表单包含两个复选框和一个确认按钮<br />
+<form name="input" action="/html" method="get">
+I have a bike:
+<input type="checkbox" name="vehicle" value="Bike" checked="checked" />
+<br />
+I have a car:
+<input type="checkbox" name="vehicle" value="car" />
+<br />
+I have an airplane:
+<input type="checkbox" name="vehicle" value="Airplane" />
+<br /><br />
+<input type="submit" value="Submit" />
+</form>
+</p>
+<p>
+<form action="MAILTO:someone@w3school.com.cn" method="post" enctype="text/plain">
+<h3>这个表单会把电子邮件发送到 W3School。</h3>
+姓名：<br />
+<input type="text" name="name" value="yourname" size="20">
+<br />
+电邮：<br />
+<input type="text" name="mail" value="yourmail" size="20">
+<br />
+内容：<br />
+<input type="text" name="comment" value="yourcomment" size="40">
+<br /><br />
+<input type="submit" value="发送">
+<input type="reset" value="重置">
+</p>
+</body>
+</html>
